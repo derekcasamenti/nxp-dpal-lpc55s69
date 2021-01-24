@@ -1,0 +1,6 @@
+option('cpu_core',
+    type : 'combo',
+    choices : ['CORE_0', 'CORE_1'],
+    value : 'CORE_0',
+    description : 'CPU core.'
+)
